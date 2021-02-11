@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Dell Inspirion 14",
+      "price": 3300.52
+    },
+    {
+      "id": 3,
+      "name": "Samsung S10 64g",
+      "price": 5500.43
+    },
+    {
+      "name": "teste teste",
+      "price": 3,
+      "id": 4
+    },
+    {
+      "name": "Lapis Preto",
+      "price": 2.5,
+      "id": 5
+    },
+    {
+      "name": "Teste Danilo o brabo",
+      "price": 200,
+      "id": 6
+    },
+    {
+      "name": "teste novo",
+      "price": 2021,
+      "id": 7
+    }
+  ]
+}
