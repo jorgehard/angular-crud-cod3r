@@ -11,7 +11,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ProductUpdateComponent implements OnInit {
   product: Product
   id: string
-  constructor(private productService: ProductService, private router: Router, private route: ActivatedRoute) { }
+
+  constructor(private productService: ProductService, private router: Router, private route: ActivatedRoute) { 
+    this.id = '';
+    this.product = { name: 'Produto não encontrado', price: 0}
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {

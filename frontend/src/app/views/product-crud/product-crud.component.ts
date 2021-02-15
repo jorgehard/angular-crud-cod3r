@@ -10,8 +10,9 @@ export class ProductCrudComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    console.log('Iniciado')
   }
-  navigateToProductCreate(){
+  navigateToProductCreate(): void{
     this.router.navigate(['/products/create']);
   }
 }
